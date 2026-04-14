@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">HomeActivity</string>
+    <string name="app_name">Aplikasi Inventaris</string>
+    <string name="welcome_text">Selamat Datang,</string>
+    <string name="login_title">Login</string>
+    <string name="login_subtitle">Silahkan masuk untuk melanjutkan</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Masuk</string>
+    <string name="register_link">Belum punya akun? Daftar di sini</string>
+    <string name="register_title">Daftar Akun Baru</string>
+    <string name="full_name_hint">Nama Lengkap</string>
+    <string name="btn_register">Daftar</string>
+    <string name="login_link">Sudah punya akun? Login di sini</string>
+    <string name="product_list_title">Daftar Produk</string>
+    <string name="category_list_title">Kategori Produk</string>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="Login"
+        android:text="@string/login_title"
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="@color/design_default_color_primary"
@@ -22,7 +22,7 @@
         android:id="@+id/tvLoginSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Silahkan masuk untuk melanjutkan"
+        android:text="@string/login_subtitle"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvLoginTitle" />
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:hint="Username"
+        android:hint="@string/username_hint"
         app:layout_constraintTop_toBottomOf="@id/tvLoginSubtitle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -49,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Password"
+        android:hint="@string/password_hint"
         app:passwordToggleEnabled="true"
         app:layout_constraintTop_toBottomOf="@id/tilUsername">
 
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginTop="32dp"
-        android:text="Masuk"
+        android:text="@string/btn_login"
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@id/tilPassword" />
 
@@ -74,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Belum punya akun? Daftar di sini"
+        android:text="@string/register_link"
         android:textColor="@color/design_default_color_primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
