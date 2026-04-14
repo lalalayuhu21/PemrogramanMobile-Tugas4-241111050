@@ -25,9 +25,11 @@ class CategoryAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val category = categories[position]
+        val context = holder.itemView.context
+        
         holder.tvName.text = category.name
         holder.tvDescription.text = category.description
-        holder.tvTotal.text = "Total Item: ${category.totalItems}"
+        holder.tvTotal.text = context.getString(R.string.total_items_label, category.totalItems)
 
         holder.itemView.setOnClickListener { onItemClick(category) }
     }

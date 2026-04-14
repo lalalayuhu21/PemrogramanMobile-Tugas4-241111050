@@ -28,9 +28,11 @@ class ProductAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val product = products[position]
+        val context = holder.itemView.context
+        
         holder.tvName.text = product.name
         holder.tvCategory.text = product.category
-        holder.tvStock.text = "Stok: ${product.stock}"
+        holder.tvStock.text = context.getString(R.string.stock_label, product.stock)
         
         val format = NumberFormat.getCurrencyInstance(Locale("in", "ID"))
         holder.tvPrice.text = format.format(product.price)

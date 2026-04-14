@@ -13,4 +13,6 @@
     <string name="login_link">Sudah punya akun? Login di sini</string>
     <string name="product_list_title">Daftar Produk</string>
     <string name="category_list_title">Kategori Produk</string>
+    <string name="stock_label">Stok: %1$d</string>
+    <string name="total_items_label">Total Item: %1$d</string>
 </resources>
