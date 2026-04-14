@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:text="Mahasiswa SIF"
+        android:text="@string/username_hint"
         android:textColor="@android:color/white"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -68,7 +68,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@android:drawable/ic_menu_agenda"
-                    android:contentDescription="Daftar Produk"
+                    android:contentDescription="@string/product_list_title"
                     app:tint="@color/design_default_color_primary" />
 
                 <TextView
@@ -102,7 +102,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@android:drawable/ic_menu_directions"
-                    android:contentDescription="Kategori"
+                    android:contentDescription="@string/category_list_title"
                     app:tint="@color/design_default_color_primary" />
 
                 <TextView

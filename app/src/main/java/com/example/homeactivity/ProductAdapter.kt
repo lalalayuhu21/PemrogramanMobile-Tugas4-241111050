@@ -34,7 +34,7 @@ class ProductAdapter(
         holder.tvCategory.text = product.category
         holder.tvStock.text = context.getString(R.string.stock_label, product.stock)
         
-        val format = NumberFormat.getCurrencyInstance(Locale("in", "ID"))
+        val format = NumberFormat.getCurrencyInstance(Locale("id", "ID"))
         holder.tvPrice.text = format.format(product.price)
 
         holder.itemView.setOnClickListener { onItemClick(product) }
